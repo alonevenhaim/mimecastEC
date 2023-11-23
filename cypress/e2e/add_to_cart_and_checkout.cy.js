@@ -33,6 +33,6 @@ describe('Add to Cart and Checkout Flow', () => {
         cy.get('#finish').click();
 
         // Verify the checkout is complete
-        cy.get('h2.complete-header', { timeout: 10000 }).should('contain', 'THANK YOU FOR YOUR ORDER');
+        cy.get('h2.complete-header', { timeout: 10000 }).should('contain', 'Thank you for your order!');
     });
 });
