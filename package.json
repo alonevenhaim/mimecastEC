@@ -1,0 +1,23 @@
+{
+  "name": "mimecast",
+  "version": "1.0.0",
+  "description": "E-Commerce Site Cypress Testing",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonevenhaim/mimecast.git"
+  },
+  "author": "Alon Even-Haim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alonevenhaim/mimecast/issues"
+  },
+  "homepage": "https://github.com/alonevenhaim/mimecast#readme",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
