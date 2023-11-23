@@ -24,6 +24,9 @@ jobs:
       - name: Install NPM dependencies
         run: npm ci
 
+      - name: Install Cypress
+        run: npm install --save-dev cypress
+
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
