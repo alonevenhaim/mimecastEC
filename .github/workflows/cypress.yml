@@ -22,7 +22,7 @@ jobs:
           node-version: '14'
 
       - name: Install Cypress
-        run: npm install --save-dev cypress
+        run: npm install
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
