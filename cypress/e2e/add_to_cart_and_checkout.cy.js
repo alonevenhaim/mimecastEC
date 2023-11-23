@@ -1,9 +1,8 @@
 cy.login = function(username, password) {
     cy.get('input[data-test="username"]').type(username);
     cy.get('input[data-test="password"]').type(password);
-    cy.get('input[type="submit"]').click(); // Adjust if your login button has a different selector
+    cy.get('input[type="submit"]').click();
 };
-
 
 describe('Add to Cart and Checkout Flow', () => {
     it('should add items to the cart and complete the checkout process', () => {
